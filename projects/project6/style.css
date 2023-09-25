@@ -17,6 +17,7 @@ header {
   flex-direction: column;
   align-items: flex-start;
 }
+
 header img {
   margin: 5px;
   background-color: #fff;
@@ -28,11 +29,13 @@ header img {
   z-index: 999;
   width: 55.05px;
 }
+
 header h1 {
   text-align: left;
   margin-left: 350px;
   font: normal normal 900 66px/97px Heebo;
 }
+
 header p {
   text-align: left;
   margin-left: 350px;
@@ -50,6 +53,7 @@ header p {
   text-align: center;
   justify-content: space-around;
 }
+
 .rows .box {
   margin-top: 10px;
   width: 400px;
@@ -61,12 +65,15 @@ header p {
   flex-direction: column;
   background-color: #F8F8F8;
 }
+
 .rows .box h1 {
   color: #0EE1E1;
 }
+
 .rows .box p {
   width: 200px;
 }
+
 .rows img {
   width: 55.05px;
 }
@@ -100,6 +107,7 @@ header p {
   justify-content: center;
   flex-direction: row;
 }
+
 .map img {
   width: 80%;
 }
@@ -168,12 +176,14 @@ header p {
   flex-direction: row;
   margin: 25px;
 }
+
 .icon-gruop .icon {
   padding: 20px;
   background-color: #0EE1E1;
   border-radius: 100%;
   margin: 15px;
 }
+
 .icon-gruop img {
   width: 55.05px;
 }
@@ -190,33 +200,41 @@ footer {
     justify-content: center;
     flex-direction: row;
   }
+
   .form-main-container p {
     width: 300px;
     font-size: 1rem;
   }
+
   .form-container {
     width: 100%;
     height: 100%;
   }
+
   .input {
     width: 307px;
   }
+
   .bottom-btn {
     width: 307px;
   }
+
   .map {
     padding: 0;
   }
+
   .map img {
     padding: 10px;
     width: 400px;
   }
 }
+
 @media screen and (max-width: 768px) {
   header {
     background-size: 80px;
     background-position: left top 30px;
   }
+
   header h1 {
     margin-left: 0;
     text-align: center;
@@ -224,11 +242,13 @@ footer {
     font: normal normal 900 33px/49px Heebo;
     margin: 5px;
   }
+
   header p {
     margin-left: 0;
     margin-bottom: 20px;
     margin: 5px;
   }
+
   .rows {
     flex-wrap: wrap;
     margin: 10px;
@@ -240,6 +260,7 @@ footer {
     text-align: center;
     justify-content: space-around;
   }
+
   .rows .box {
     margin-top: 10px;
     width: 400px;
@@ -251,15 +272,19 @@ footer {
     flex-direction: column;
     background-color: #F8F8F8;
   }
+
   .rows .box h1 {
     color: #0EE1E1;
   }
+
   .rows .box p {
     width: 200px;
   }
+
   .rows img {
     width: 55.05px;
   }
+
   .form-main-container {
     display: flex;
     align-items: center;
@@ -267,24 +292,30 @@ footer {
     flex-direction: column;
     height: 100%;
   }
+
   .form-main-container p {
     width: 300px;
     font-size: 1rem;
   }
+
   .form-container {
     width: 100%;
     height: 100%;
   }
+
   .input {
     width: 307px;
   }
+
   .bottom-btn {
     width: 307px;
   }
+
   .map img {
     padding: 10px;
     width: 313px;
   }
+
   .icon-gruop {
     display: flex;
     align-items: center;
@@ -292,13 +323,17 @@ footer {
     flex-direction: row;
     margin: 25px;
   }
+
   .icon-gruop .icon {
     padding: 20px;
     background-color: #0EE1E1;
     border-radius: 100%;
     margin: 15px;
   }
+
   .icon-gruop img {
     width: 20px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
