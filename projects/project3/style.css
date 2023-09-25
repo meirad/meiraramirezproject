@@ -14,7 +14,7 @@ body {}
 }
 
 .item img {
-
+    width: 100%;
     background: transparent url('img/Rectangle 506.png') 0% 0% no-repeat padding-box;
 }
 
@@ -43,16 +43,15 @@ body {}
 
 .item3 h3 {
     text-align: center;
-    font: normal normal bold 61px/80px Assistant;
+    font: normal normal bold 3.813rem Assistant;
     letter-spacing: 0px;
     color: #0EE1DA;
-    line-height: 0;
+
 }
 
 .item3 p {
-    line-height: 1px;
     text-align: center;
-    font: normal normal normal 20px/26px Assistant;
+    font: normal normal normal 1.25rem Assistant;
     letter-spacing: 0px;
     color: #F9F9F9;
     width: 600px;
@@ -220,11 +219,10 @@ body {}
     transform: scale(1.1);
 }
 
-@media screen and (max-width:1800px) {
-    .container {}
-}
+
 
 @media screen and (max-width: 800px) {
+
 
 
     .container {
