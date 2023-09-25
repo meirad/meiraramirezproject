@@ -16,10 +16,23 @@ header {
     display: flex;
     justify-content: center;
     padding: 10px 0;
-    gap: 15px;
+    gap: 30px
 }
 
-.nav-item {}
+header input {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+}
 
 .nav-link {
     text-decoration: none;
@@ -61,6 +74,7 @@ header {
 
 .dropdown-menu {
     display: none;
+    list-style: none;
 }
 
 .dropdown-menu li {
@@ -69,12 +83,11 @@ header {
 
 .dropdown-menu a {
     color: #fff;
+    list-style: none;
     text-decoration: none;
-    /* Remove text decoration (underline) */
     display: block;
     padding: 5px 0;
     transition: color 0.3s ease;
-    /* Transition for text color */
 }
 
 .dropdown-menu a {
@@ -105,9 +118,11 @@ header {
 }
 
 .slider-btn {
+    display: flex;
     text-align: center;
     margin: 42px 0 0;
     padding: 20px;
+    justify-content: center;
 }
 
 .btn-default {
@@ -119,14 +134,14 @@ header {
     padding: 16px 36px;
     border-radius: 0;
     text-decoration: none;
-
+    gap: 30px;
+    margin: 20px;
 }
 
 .btn-default:hover {
     color: #fff;
     background: #cbb58b;
     border: 3px solid #cbb58b;
-    font-size: 35px;
 }
 
 .about {
@@ -167,7 +182,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 15px;
+    gap: 50px;
 }
 
 .event h2 {
@@ -342,7 +357,13 @@ footer {
     margin-right: 15px;
 }
 
+#subscribeform {
+    display: flex;
+    align-items: baseline;
+}
+
 .btn-warning {
+
     background: #cbb58b;
     border: none;
     border-radius: 3px;
