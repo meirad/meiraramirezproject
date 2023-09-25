@@ -1,3 +1,5 @@
+body {}
+
 .container {
 
     display: grid;
@@ -12,14 +14,11 @@
 }
 
 .item img {
-    width: 390px;
+
     background: transparent url('img/Rectangle 506.png') 0% 0% no-repeat padding-box;
 }
 
-
-
-
-.item1 {
+.item .item1 {
     grid-column: 1;
     grid-row: 1;
 }
@@ -219,6 +218,10 @@
     background-color: #000000;
     color: #0EE1DA;
     transform: scale(1.1);
+}
+
+@media screen and (max-width:1800px) {
+    .container {}
 }
 
 @media screen and (max-width: 800px) {
