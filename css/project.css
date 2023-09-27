@@ -28,3 +28,7 @@
 .project-btn {
     background-color: #fff5ea;
 }
+
+nav {
+    display: none;
+}
